@@ -16,6 +16,6 @@ var store =  new Vuex.Store({
     }
   }
 })
-vuexStorage.init(store, ['count'])
+vuexStorage.init(store, ['count']) // 此处传入的数组，定义要实现同步的state 名称
 
 export default store
